@@ -1,18 +1,8 @@
 radio.onReceivedNumber(function (receivedNumber) {
-    if (1 < 2) {
-        basic.showIcon(IconNames.Heart)
-    } else {
-        basic.showIcon(IconNames.No)
-    }
-    if (2 < 3) {
-        basic.showIcon(IconNames.Heart)
-    } else {
-        basic.showIcon(IconNames.No)
-    }
-    if (3 < 1) {
-        basic.showIcon(IconNames.No)
-    } else {
-        basic.showIcon(IconNames.Heart)
+    let 相手の手２ = 0
+    let 相手の手１ = 0
+    if (相手の手１ && 相手の手２) {
+    	
     }
 })
 input.onButtonPressed(Button.A, function () {
